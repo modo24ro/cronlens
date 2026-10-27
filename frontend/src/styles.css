@@ -1,0 +1,68 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #1f2328;
+  background: #f6f8fa;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+
+.tagline {
+  color: #59636e;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+}
+
+input {
+  flex: 1;
+  font: 1.1rem ui-monospace, monospace;
+  padding: 8px 12px;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 14px;
+}
+
+.examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 12px 0;
+}
+
+.examples button {
+  font-family: ui-monospace, monospace;
+  font-size: 0.85rem;
+}
+
+.description {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.error {
+  color: #cf222e;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 4px 12px 4px 0;
+}
+
+.gap {
+  color: #59636e;
+  margin-left: 12px;
+  font-size: 0.85rem;
+}
